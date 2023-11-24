@@ -9,6 +9,8 @@
 
 هدف ما از این پروژه نشان دادن چگونگی استفاده از برنامه‌نویسی و تکنولوژی برای ساخت ابزارهای کاربردی در بهبود سلامت و سبک زندگی است.
 
+![ezcv logo](https://github.com/certifiedtruecopy/Building-Nutrition-Calculator/blob/main/Screenshot%202023-11-23%20140639.png)
+
 
 # Program to calculate the amount of protein and carbohydrates consumed for people
 
