@@ -1,3 +1,6 @@
+![ezcv logo](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png)
+
+
 # برنامه محاسبه مقدار پروتئین کربوهیدرات مصرفی برای افراد
 
 این  یک برنامه کامپیوتری با استفاده از کتابخانه Tkinter در Python است
