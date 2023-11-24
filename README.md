@@ -1,4 +1,4 @@
-![ezcv logo](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png)
+![ezcv logo](https://github.com/certifiedtruecopy/Building-Nutrition-Calculator/blob/main/photo.png)
 
 
 # برنامه محاسبه مقدار پروتئین کربوهیدرات مصرفی برای افراد
