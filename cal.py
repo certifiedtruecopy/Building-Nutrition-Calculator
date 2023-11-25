@@ -1,5 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, PhotoImage, messagebox
+import os
+import sys
 
 def calculate_nutrient_intake(age, gender, weight, height, activity_level, goal):
     # محاسبه BMR
@@ -18,7 +20,6 @@ def calculate_nutrient_intake(age, gender, weight, height, activity_level, goal)
     }
     tdee = bmr * activity_factors[activity_level]
 
-  
     protein_percentage = 0.15  
     carbs_percentage = 0.50  
     fat_percentage = 0.35  
@@ -61,7 +62,15 @@ root.title("محاسبه‌گر")
 root.geometry("320x660")
 
 # بارگذاری عکس
-image = PhotoImage(file="C:/Users/anaja/OneDrive/Desktop/App/Fitness/photo.PNG")
+if getattr(sys, 'frozen', False):
+    # اگر فایل اجرایی باشد
+    application_path = sys._MEIPASS
+else:
+    # اگر اسکریپت باشد
+    application_path = os.path.dirname(os.path.abspath(__file__))
+
+image_path = os.path.join(application_path, 'photo.PNG')
+image = PhotoImage(file=image_path)
 
 # ایجاد یک برچسب (لیبل) با استفاده از تی تی کا و قرار دادن عکس در آن
 image_label = ttk.Label(root, image=image)
